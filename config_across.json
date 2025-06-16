@@ -1,0 +1,16 @@
+{
+    "number_of_repetitions": 2,
+    "test_order": ["udp", "tcp", "icmp", "arp"],
+    "bandwidth_profile_KB": "lambda x: 1024 * 1024 * (x+1)",
+
+    "execution_time": "10",
+    "data": "b'A' * 10240",
+    "src_ip": "192.168.253.20",
+    "dst_ip": "192.168.253.30",
+
+    "udp_port": "8081",
+    "tcp_port": "8080",
+    "arp_src_mac_original": "ff:ff:ff:ff:ff:ff",
+    "arp_threads": "500",
+    "arp_interface": "ens37"
+}
