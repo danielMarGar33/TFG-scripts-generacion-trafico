@@ -7,14 +7,7 @@ Este repositorio contiene un conjunto de scripts en Python diseñados para gener
 ---
 
 ## 🗂️ Estructura del Proyecto
-.
-├── config_across.json
-├── flood_arp_bandwidth.py
-├── flood_icmp_bandwidth.py
-├── flood_tcp_socket_bandwidth.py
-├── flood_udp_socket_bandwidth.py
-└── global_flood_bandwidth.py
-
+<pre> ```bash . ├── config_across.json ├── flood_arp_bandwidth.py ├── flood_icmp_bandwidth.py ├── flood_tcp_socket_bandwidth.py ├── flood_udp_socket_bandwidth.py └── global_flood_bandwidth.py ``` </pre>
 
 ---
 
